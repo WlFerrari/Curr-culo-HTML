@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1a1616;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.social-links a {
+    text-decoration: none; 
+}
+
+.redes {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s;
+}
+
+.redes:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.secao {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.foto {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.nome {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.email {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.adr .telefone, .local {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+b {
+    font-weight: bold;
+}
+
+.secao ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.secao ul li {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.pdf-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+    .secao {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
